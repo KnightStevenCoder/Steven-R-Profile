@@ -54,6 +54,27 @@ a:hover {
 .nav a:hover {
   color: darkgrey
 }
+ #Experience {
+  text-align: center;
+  background: url('images/code.jpg') no-repeat top center ;
+  background-size: cover;
+  overflow: hidden;
+  padding-top: 60px;
+}
+#Experience {
+  line-height: 1.5;
+}
+header .profile-image {
+  margin-top: 50px;
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  border: 3px solid white;
+  transition: all .5s;
+}
+header .profile-image:hover {
+  transform: scale(1.2) rotate(720deg);
+}
 
 header {
   text-align: center;
